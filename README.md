@@ -22,13 +22,13 @@
 
 ## Branches
 
-1)
+1) Presentation
 
-2)
+2) Machine Learning Model
 
-3)
+3) Database
 
-4)
+4) Dashboard
 
 
 ## Deliverables
