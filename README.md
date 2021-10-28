@@ -15,6 +15,7 @@
 - Database integration (Postgres, MongoDB, or SQLite) will be used to store cleaned data. 
 - Machine learning will be implemented to enhance the topic. Tableau or JavaScript will be used to build a dashboard to present the results. 
 - A presentation will be prepared and delivered that walks the class through the project, step by step.
+- Tableau will be used to create a heatmap.
 
 ## Data Source Description
 
