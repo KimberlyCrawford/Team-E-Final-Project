@@ -7,7 +7,7 @@
 ### Purpose
 
 #### Reasons Why Topic was Selected:
-
+Global climate change has started to become an issue due to changing temperatures around the globe. In order to address this issue, we want to make it possible for individuals to get machine learned temperature predictions based on weather data from the past 100 years. This will help buyer to predict future temperatures before purchasing land or property.
 #### Questions We Hope to Answer with the Data:
 
 - Python will be used to clean, prepare, and explore the data, as well as to complete initial analysis. 
