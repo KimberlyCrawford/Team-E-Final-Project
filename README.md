@@ -19,6 +19,11 @@ Global climate change has started to become an issue due to changing temperature
 
 ## Data Source Description
 
+CSV file from Kaggle: https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCity.csv
+
+- GlobalLandTemperaturesByCity.csv(532.83 MB)
+
+
 ## Description of Communication Protocols
 
 ## Branches
