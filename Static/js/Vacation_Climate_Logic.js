@@ -56,7 +56,6 @@ let baseMaps = {
 // layers are visible.  We should do this as an input for year. Maybe a filter?
 
 
-
 // Retrieve the data that our map will reference.
 climateData = pd.read_csv("url").then(function(data) {
 
