@@ -11,16 +11,15 @@ Global climate change has started to become an issue due to changing temperature
 
 ### Questions We Hope to Answer with the Data:
 
-1)
+1) Which cities in our dataset have an average temperature of 32 degrees or below?
 
-2)
-
-3)
+2) Out of the results, which cities are located in a major metropolitan area?
 
 ## Data Source Description
 
-- CSV file from Kaggle: https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCity.csv
+- [CSV file from Kaggle](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCity.csv)
 - GlobalLandTemperaturesByCity.csv(532.83 MB)
+- [CleanedGlobalLandTemperaturesByMajorCity.csv](https://cgl-analytics-city-data.s3.us-east-2.amazonaws.com/CleanedGlobalLandTemperaturesByMajorCity.csv) 
 
 ## Technologies Used for Each Step of the Project:
 
