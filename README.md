@@ -57,4 +57,26 @@ We will use temperature data by month on Major cities to predict the monthly tem
 
 3) Database
 
+
+
 4) Dashboard
+
+Dashboard is not required in First Segment.
+
+## Deliverables
+
+### First Segment: Sketch It Out
+
+Decide on your overall project, select your question, and build a simple model. You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
+
+### Second Segment: Build the Pieces
+
+Train your model and build out the database you'll use for your final presentation.
+
+### Third Segment: Plug It In
+
+Connect your final database to your model, continue to train your model, and create your dashboard and presentation.
+
+### Fourth Segment: Put It All Together
+
+Put the final touches on your model, database, and dashboard. Lastly, create and deliver your final presentation to your class.
