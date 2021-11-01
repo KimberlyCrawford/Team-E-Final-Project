@@ -1,6 +1,12 @@
 // Add console.log to check to see if our code is working.
 console.log("working");
 
+// Import pandas
+import pandas as pd
+
+//import data
+url = 'https://cgl-analytics-city-data.s3.us-east-2.amazonaws.com/CleanedGlobalLandTemperaturesByMajorCity.csv'
+
 // Since we already have three layers set up here I see no reason not to include all three options. 
 // We create the tile layer that will be the background of our map.
 let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token={accessToken}', {
@@ -50,9 +56,8 @@ let baseMaps = {
 // layers are visible.  We should do this as an input for year. Maybe a filter?
 
 
-
 // Retrieve the data that our map will reference.
-d3.json("URL for json data if thats what we use, or tableau public if we use that instead").then(function(data) {
+climateData = pd.read_csv("url").then(function(data) {
 
   // This function returns the style data for the map. This might not be useful with a heat map, so we may
   //remove this.
@@ -100,6 +105,7 @@ d3.json("URL for json data if thats what we use, or tableau public if we use tha
 
 // Creating a GeoJSON layer with the retrieved data. This should be useful we just need to edit it to match
 // the new map.
+// This will probably be deleted if we cannot use anything from here. 
 L.geoJson(data, {
     // We turn each feature into a circleMarker on the map.
   	pointToLayer: function(feature, latlng) {
@@ -115,9 +121,19 @@ L.geoJson(data, {
   }
 }).addTo(allEarthquakes);
 
-  // Then we add the climate layer to our map.
 
 
+ // Loop through the machine learning data and create one marker for each city.
+ // This will need to be edited with the new machine data tags.
+cityData.forEach(function(city) {
+  console.log(city)
+  L.circleMarker(city.location, {
+      radius: city.population/100000
+  })
+  //below is how we add adtional data to the markers when we click on them
+  .bindPopup("<h2>" + city.city + ", " + city.state + "</h2> <hr> <h3>Population " + city.population.toLocaleString() + "</h3>")
+  .addTo(map);
+});   
 
  // 3. Retrieve the future predicted GeoJSON data >4.5 mag for the week.
  d3.json("url for future predicted").then(function(data) {
