@@ -57,7 +57,7 @@ We will use temperature data by month on Major cities to predict the monthly tem
 
 3) Database
 
-
+We will create our database using Postgres and use AWS Database service to store the data for public view. 
 
 4) Dashboard
 
