@@ -17,8 +17,11 @@ Global climate change has started to become an issue due to changing temperature
 
 ## Data Source Description
 
-- [CSV file from Kaggle](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByCity.csv)
-- GlobalLandTemperaturesByCity.csv(532.83 MB)
+- [CSV file from Kaggle](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByMajorCity.csv)
+
+![Kaggle_original.png](https://github.com/KimberlyCrawford/Bikesharing/blob/main/Resources/Kaggle_original.png)
+
+
 - [CleanedGlobalLandTemperaturesByMajorCity.csv](https://cgl-analytics-city-data.s3.us-east-2.amazonaws.com/CleanedGlobalLandTemperaturesByMajorCity.csv) 
 
 ## Technologies Used for Each Step of the Project:
