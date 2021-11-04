@@ -3,13 +3,23 @@
 #### Final Project by Team E: CGL Analytics (Kimberly Crawford, Gary Goodman, and Trevor Lanouette)
 
 ## Overview
-Fries Cryogenic Research and Development Center is currently located in Amarillo, Texas and operated by decedents of Dr. Victor Fries better known as Mr. Frosty. In the early 1970s, Dr. Fries was severly injured from an equipment malfunction and laboratory explosion while conducting a cryogenic technology experiment. His body can only survive in an environment with an average 32 degrees fahrenhite or below temperature.  With high intelligence and skills in physics, engineering, genetics, computer science, chemistry, and medical science; Dr. Fries has worked remotely as a valuable consultant. However, as more advanced research is being conducted, FCRDC need his physical presence in the laboratories. Therefore, FCRDC needs to relocate it's headquarters and laboratory somewhere with an average temperature of 32 degrees farenhite or below to accommodate Dr. Fries' special circumstances. The CEO of FCRDC has contracted CGL Analytics to conduct a temperature analysis and predict which cities meet these requirements based on data from 1913 to 2013. The recommended top location will have the most projected months <= 32 and be a major metropolitan area in order to attract and maintain high quality employees.
+A temperature analysis performed by CGL Analytics to predict temperature changes in major cities with average <=32 degrees Fahrenheit temperatures.
 
-### Purpose and Reasons Why Topic was Selected:
+### Purpose
 
-Global climate change has started to become an issue due to changing temperatures around the globe. In order to address this issue, we want to make it possible for individuals to get machine learned temperature predictions based on weather data from the past 100 years. This will help FCRDC to predict future temperatures before purchasing land or property for their new location.
+#### Background: 
 
-### Questions We Hope to Answer with the Data:
+Fries Cryogenic Research and Development Center (FCRDC) is currently located in Gotham City, New Jersey and operated by the family of Dr. Victor Fries, a known scientist with high intelligence and skills in physics, engineering, genetics, computer science, chemistry, and medical science. In 2001, Dr. Fries was severely injured from an equipment malfunction and laboratory explosion while conducting a cryogenic technology experiment to cure his terminally ill wife. The accident took his wife’s life and drastically lowered his body temperature forcing him to wear a cryogenic suit to survive. As a result of the accident, he fell into a deep depression and turned to crime under the alias, Mr. Freeze. Fortunately, he was captured by Batman and Robin and has been incarcerated for the past 20 years in Antarctica. During his time in prison, Mr. Freeze was rehabilitated and positively contributed to the research conducted by FCRDC. With his parole hearing coming up and anticipation of his release, he wants to relocate FCRDC’s headquarters to a major city with an average temperature of <=32 degrees Fahrenheit. The CEO of FCRDC has contracted CGL Analytics to conduct a temperature analysis and predict which cities meet these requirements based on data over the last 100 years. The recommended top location will have the most projected months <= 32 and be a major metropolitan area to attract and maintain high quality employees.
+
+#### Project Goals: 
+
+The purpose of this project was to download data for analysis, create a database to house the data, apply machine learning to tell a story about the data, and display the results in a dashboard. 
+
+#### Reasons Why Project Topic was Selected:
+
+Global climate change has started to become an issue due to changing temperatures around the globe. In order to address this issue, we (CGL Analytics) want to make it possible for individuals to get machine learned temperature predictions based on weather data from the past 100 years. This will help FCRDC to predict future temperatures before purchasing land or property for their new location.
+
+#### Questions We Hope to Answer with the Data:
 
 1) Which cities in our dataset have an average temperature of 32 degrees or below?
 
@@ -17,12 +27,11 @@ Global climate change has started to become an issue due to changing temperature
 
 ## Data Source Description
 
-- [CSV file from Kaggle](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByMajorCity.csv)
+- Our dataset comes from the [Berkeley Earth data page] (http://berkeleyearth.org/data/) and includes Global Land Temperatures By Major City [CSV file from Kaggle](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByMajorCity.csv)
 
 ![Kaggle_original.png](https://github.com/KimberlyCrawford/Bikesharing/blob/main/Resources/Kaggle_original.png)
 
-
-- [CleanedGlobalLandTemperaturesByMajorCity.csv](https://cgl-analytics-city-data.s3.us-east-2.amazonaws.com/CleanedGlobalLandTemperaturesByMajorCity.csv) 
+- The following data was cleaned for analysis and resulted in a dataset with ??? records: [CleanedGlobalLandTemperaturesByMajorCity.csv](https://cgl-analytics-city-data.s3.us-east-2.amazonaws.com/CleanedGlobalLandTemperaturesByMajorCity.csv) 
 
 ## Technologies Used for Each Step of the Project:
 
