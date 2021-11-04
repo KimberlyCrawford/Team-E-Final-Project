@@ -27,7 +27,7 @@ Global climate change has started to become an issue due to changing temperature
 
 ## Data Source Description
 
-- Our dataset was located on Kaggle's Climate Change: Earth Surface Temperature Data page and comes from the Berkeley Earth data page (http://berkeleyearth.org/data/). The dataset selected includes Global Land Temperatures By Major City [CSV file from Kaggle](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalLandTemperaturesByMajorCity.csv)
+- Our dataset was located on Kaggle's Climate Change: Earth Surface Temperature Data page and comes from the Berkeley Earth data page (http://berkeleyearth.org/data/). The dataset selected includes [Global Land Temperatures By Major City](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/GlobalLandTemperaturesByMajorCity.csv)
 
 ![Kaggle_original.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Images/Kaggle_original.png)
 
