@@ -54,9 +54,7 @@ A group project channel was created in Slack for team members to communicate and
 
 ## GitHub Branches
 
-1) Presentation
-
-https://docs.google.com/presentation/d/1WZC2bXoTtV8-X5zU-iLXQ76XYvIbZpF_7lVa6u-mnTE/edit?usp=sharing
+1) [Presentation](https://docs.google.com/presentation/d/1WZC2bXoTtV8-X5zU-iLXQ76XYvIbZpF_7lVa6u-mnTE/edit?usp=sharing)
 
 2) Machine Learning Model
 
