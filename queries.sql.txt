@@ -26,3 +26,28 @@ ORDER By Number DESC
 
 -- View cold_cities
 SELECT * FROM cold_cities;
+
+-- Create table ave_cost
+CREATE TABLE ave_cost (
+	 City VARCHAR (50),
+	 Average_Property_Value_per_square_meter_USD INT,
+	 Country VARCHAR (50),
+     PRIMARY KEY (city)
+);
+
+--DROP TABLE ave_cost
+
+--View ave_cost
+SELECT * FROM ave_cost;
+
+-- Join ave_cost and cold_cities
+SELECT ave_cost.city,
+	ave_cost.Average_Property_Value_per_square_meter_USD,
+	ave_cost.country
+INTO ave_cost_cold_cities
+FROM ave_cost
+LEFT JOIN cold_cities
+ON ave_cost.city = cold_cities.city;
+
+--View ave_cost_cold_cities
+SELECT * FROM ave_cost_cold_cities;
