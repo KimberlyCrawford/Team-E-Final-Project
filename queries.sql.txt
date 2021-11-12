@@ -1,0 +1,28 @@
+-- Creating main data table clean_cities
+CREATE TABLE clean_cities (
+	 id INT NOT NULL,
+     dt DATE NOT NULL,
+	 AverageTemperature_F decimal (6,0),
+	 AverageTemperatureUncertainty decimal (4,0),
+	 City VARCHAR (50) NOT NULL,
+	 Country VARCHAR (50) NOT NULL,
+	 Latitude Text NOT NULL,
+	 Longitude Text NOT NULL,
+     PRIMARY KEY (id)
+);
+--Drop TABLE clean_cities
+
+
+-- Count city mentions
+SELECT DISTINCT City, count(*) AS Number
+INTO cold_cities
+FROM clean_cities
+WHERE AverageTemperature_F <32
+GROUP BY City
+ORDER By Number DESC
+
+
+--DROP TABLE cold_cities
+
+-- View cold_cities
+SELECT * FROM cold_cities;
