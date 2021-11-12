@@ -56,6 +56,8 @@ A group project channel was created in Slack for team members to communicate and
 
 1) [Presentation](https://docs.google.com/presentation/d/1WZC2bXoTtV8-X5zU-iLXQ76XYvIbZpF_7lVa6u-mnTE/edit?usp=sharing)
 
+![Presentation.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Images/Presentation.png)
+
 2) Machine Learning Model
 
 How we are deciding what model to use:
@@ -71,7 +73,10 @@ We will create our database using Postgres and use AWS Database service to store
 
 4) Dashboard
 
-Dashboard is not required in First Segment.
+The following is a screenshot of our Dashboard blueprint:
+
+![Dashboard.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Images/Dashboard.png)
+
 
 ## Deliverables
 
