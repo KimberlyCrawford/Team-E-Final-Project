@@ -29,7 +29,7 @@ Global climate change has started to become an issue due to changing temperature
 
 - Our dataset was located on Kaggle's Climate Change: Earth Surface Temperature Data page and comes from the Berkeley Earth data page (http://berkeleyearth.org/data/). The dataset selected includes [Global Land Temperatures By Major City](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/GlobalLandTemperaturesByMajorCity.csv)
 
-![Kaggle_original.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Images/Kaggle_original.png)
+![Kaggle_original.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/static/images/Kaggle_original.png)
 
 - The following data was cleaned for analysis and resulted in a dataset with ??? records: [CleanedGlobalLandTemperaturesByMajorCity.csv](https://cgl-analytics-city-data.s3.us-east-2.amazonaws.com/CleanedGlobalLandTemperaturesByMajorCity.csv) 
 
@@ -56,14 +56,16 @@ A group project channel was created in Slack for team members to communicate and
 
 1) [Presentation](https://docs.google.com/presentation/d/1WZC2bXoTtV8-X5zU-iLXQ76XYvIbZpF_7lVa6u-mnTE/edit?usp=sharing)
 
-![Presentation.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Images/Presentation.png)
+![Presentation.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/static/images/Presentation.png)
 
 2) Machine Learning Model
+
+Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions. A machine learning model is presented with a dataset, the model algorithms analyze the data and attempt to identify patterns, and makes predictions on new data. Since our dataset deals with labeled continuous data variables, we will be using a supervised regression learning model. 
 
 How we are deciding what model to use:
 ![ml_map](https://user-images.githubusercontent.com/82718969/139357640-739c48d6-e16e-47ff-88aa-5c29684e54ef.png)
 
-Based on our machine learning chart we will be using: Regression
+Based on our machine learning chart we will be using: Sarimax Model
 
 We will use temperature data by month on Major cities to predict the monthly temperatures of cities that fall within our CEO's specifications for a new headquarters.
 
@@ -75,10 +77,10 @@ We will create our database using Postgres and use AWS Database service to store
 
 The following is a screenshot of our Dashboard blueprint:
 
-![Dashboard.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Images/Dashboard.png)
+![Dashboard.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/static/images/Dashboard.png)
 
 
-## Deliverables
+## Final Project Deliverables
 
 ### First Segment: Sketch It Out
 
