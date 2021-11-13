@@ -9,7 +9,7 @@ A temperature analysis performed by CGL Analytics to predict temperature changes
 
 #### Background: 
 
-Fries Cryogenic Research and Development Center (FCRDC) is currently located in Gotham City, New Jersey and operated by the family of Dr. Victor Fries, a known scientist with high intelligence and skills in physics, engineering, genetics, computer science, chemistry, and medical science. In 2001, Dr. Fries was severely injured from an equipment malfunction and laboratory explosion while conducting a cryogenic technology experiment to cure his terminally ill wife. The accident took his wife’s life and drastically lowered his body temperature forcing him to wear a cryogenic suit to survive. As a result of the accident, he fell into a deep depression and turned to crime under the alias, Mr. Freeze. Fortunately, he was captured by Batman and Robin and has been incarcerated for the past 20 years in Antarctica. During his time in prison, Mr. Freeze was rehabilitated and positively contributed to the research conducted by FCRDC. With his parole hearing coming up and anticipation of his release, he wants to relocate FCRDC’s headquarters to a major city with an average temperature of <=32 degrees Fahrenheit. The CEO of FCRDC has contracted CGL Analytics to conduct a temperature analysis and predict which cities meet these requirements based on data over the last 100 years. The recommended top location will have the most projected months <= 32 and be a major metropolitan area to attract and maintain high quality employees while being cost effective.
+Fries Cryogenic Research and Development Center (FCRDC) is currently located in Gotham City, New Jersey and operated by the family of Dr. Victor Fries, a known scientist with high intelligence and skills in physics, engineering, genetics, computer science, chemistry, and medical science. In 2001, Dr. Fries was severely injured from an equipment malfunction and laboratory explosion while conducting a cryogenic technology experiment to cure his terminally ill wife. The accident took his wife’s life and drastically lowered his body temperature forcing him to wear a cryogenic suit to survive. As a result of the accident, he fell into a deep depression and turned to crime under the alias, Mr. Freeze. Fortunately, he was captured by Batman and Robin and has been incarcerated for the past 20 years in Antarctica. During his time in prison, Mr. Freeze was rehabilitated and positively contributed to the research conducted by FCRDC. With his parole hearing coming up and anticipation of his release, he wants to relocate FCRDC’s headquarters to a major city with an average temperature of <=32 degrees Fahrenheit. The CEO of FCRDC has contracted CGL Analytics to conduct a temperature analysis and predict which cities meet these requirements based on data over the last 100 years. The recommended top location will have the most projected months <= 32 and be a major metropolitan area to attract and maintain high quality employees.
 
 #### Project Goals: 
 
@@ -29,7 +29,7 @@ Global climate change has started to become an issue due to changing temperature
 
 - Our dataset was located on Kaggle's Climate Change: Earth Surface Temperature Data page and comes from the Berkeley Earth data page (http://berkeleyearth.org/data/). The dataset selected includes [Global Land Temperatures By Major City](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/GlobalLandTemperaturesByMajorCity.csv)
 
-![Kaggle_original.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/static/images/Kaggle_original.png)
+![Kaggle_original.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Kaggle_original.png)
 
 - The following data was cleaned for analysis and resulted in a dataset with ??? records: [CleanedGlobalLandTemperaturesByMajorCity.csv](https://cgl-analytics-city-data.s3.us-east-2.amazonaws.com/CleanedGlobalLandTemperaturesByMajorCity.csv) 
 
@@ -56,7 +56,7 @@ A group project channel was created in Slack for team members to communicate and
 
 1) [Presentation](https://docs.google.com/presentation/d/1WZC2bXoTtV8-X5zU-iLXQ76XYvIbZpF_7lVa6u-mnTE/edit?usp=sharing)
 
-![Presentation.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/static/images/Presentation.png)
+![Presentation.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Presentation.png)
 
 2) Machine Learning Model
 
@@ -77,7 +77,7 @@ We will create our database using Postgres and use AWS Database service to store
 
 The following is a screenshot of our Dashboard blueprint:
 
-![Dashboard.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/static/images/Dashboard.png)
+![Dashboard.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Dashboard.png)
 
 
 ## Final Project Deliverables
