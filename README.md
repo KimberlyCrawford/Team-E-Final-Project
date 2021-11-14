@@ -33,6 +33,16 @@ Global climate change has started to become an issue due to changing temperature
 
 - The following data was cleaned for analysis and resulted in a dataset with 239,177 records: [CleanedGlobalLandTemperaturesByMajorCity.csv](https://cgl-analytics-city-data.s3.us-east-2.amazonaws.com/CleanedGlobalLandTemperaturesByMajorCity.csv) 
 
+## Data Exploration Phase
+
+Data was explored using the ETL process: 
+
+![Presentation.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Presentation.png)
+
+## Analysis Phase
+
+
+
 ## Technologies Used for Each Step of the Project:
 
 - Python was used to prepare and explore the data, as well as complete initial analysis. 
