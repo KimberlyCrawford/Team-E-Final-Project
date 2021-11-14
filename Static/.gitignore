@@ -1,0 +1,11 @@
+# Ignore the config files.
+config.js
+config.py
+
+#CSV's
+GlobalLandTemperaturesByCity.csv
+GlobalLandTemperaturesByState.csv
+CleanedGlobalLandTemperatureByMajorCity.csv
+
+#Resources Folder
+Resources/
