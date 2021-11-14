@@ -31,7 +31,7 @@ Global climate change has started to become an issue due to changing temperature
 
 ![Kaggle_original.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Kaggle_original.png)
 
-- The following data was cleaned for analysis and resulted in a dataset with ??? records: [CleanedGlobalLandTemperaturesByMajorCity.csv](https://cgl-analytics-city-data.s3.us-east-2.amazonaws.com/CleanedGlobalLandTemperaturesByMajorCity.csv) 
+- The following data was cleaned for analysis and resulted in a dataset with 239,177 records: [CleanedGlobalLandTemperaturesByMajorCity.csv](https://cgl-analytics-city-data.s3.us-east-2.amazonaws.com/CleanedGlobalLandTemperaturesByMajorCity.csv) 
 
 ## Technologies Used for Each Step of the Project:
 
@@ -71,7 +71,15 @@ We will use temperature data by month on Major cities to predict the monthly tem
 
 3) Database
 
-We will create our database using Postgres and use AWS Database service to store the data for public view. 
+- A SQL database was created based on the following ERD:
+
+![filename.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/filename.png)
+
+-The following datasets were imported into pgAdmin:
+
+- The following tables were created, joined and exported to CSV files:
+
+- See the following text file for queries: https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Database/queries.sql.txt
 
 4) Dashboard
 
