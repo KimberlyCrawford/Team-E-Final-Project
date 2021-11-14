@@ -81,9 +81,9 @@ We will use temperature data by month on Major cities to predict the monthly tem
 
 - The following tables were created, joined and exported to CSV files:
 
-![Dashboard.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Dashboard.png)
+![CVS_cold_cities.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/CVS_cold_cities.png)
 
-![Dashboard.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Dashboard.png)
+![CVS_joins.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/CVS_joins.png)
 
 - See the following text file for queries: https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Database/queries.sql.txt
 
