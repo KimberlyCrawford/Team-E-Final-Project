@@ -54,11 +54,13 @@ A group project channel was created in Slack for team members to communicate and
 
 ## GitHub Branches
 
-1) [Presentation](https://docs.google.com/presentation/d/1WZC2bXoTtV8-X5zU-iLXQ76XYvIbZpF_7lVa6u-mnTE/edit?usp=sharing)
+#### 1) Presentation 
+
+[Presentation](https://docs.google.com/presentation/d/1WZC2bXoTtV8-X5zU-iLXQ76XYvIbZpF_7lVa6u-mnTE/edit?usp=sharing)
 
 ![Presentation.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Presentation.png)
 
-2) Machine Learning Model
+#### 2) Machine Learning Model
 
 Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions. A machine learning model is presented with a dataset, the model algorithms analyze the data and attempt to identify patterns, and makes predictions on new data. Since our dataset deals with labeled continuous data variables, we will be using a supervised regression learning model. 
 
@@ -69,7 +71,7 @@ Based on our machine learning chart we will be using: Sarimax Model
 
 We will use temperature data by month on Major cities to predict the monthly temperatures of cities that fall within our CEO's specifications for a new headquarters.
 
-3) Database
+#### 3) Database
 
 - A SQL database was created based on the following ERD:
 
@@ -79,9 +81,13 @@ We will use temperature data by month on Major cities to predict the monthly tem
 
 - The following tables were created, joined and exported to CSV files:
 
+![Dashboard.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Dashboard.png)
+
+![Dashboard.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Dashboard.png)
+
 - See the following text file for queries: https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Database/queries.sql.txt
 
-4) Dashboard
+#### 4) Dashboard
 
 The following is a screenshot of our Dashboard blueprint:
 
