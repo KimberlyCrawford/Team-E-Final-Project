@@ -37,7 +37,7 @@ Global climate change has started to become an issue due to changing temperature
 
 Data was explored using the ETL process: 
 
-![Presentation.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Presentation.png)
+![ETL.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/ETL.png)
 
 ## Analysis Phase
 
