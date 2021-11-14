@@ -41,7 +41,10 @@ Data was explored using the ETL process:
 
 ## Analysis Phase
 
-
+- Data Visualization - develop the hypothesis or insights to explore and evaluate the data using Tableau. 
+- Statical Analysis - summarize the data and it’s understanding in terms of model and graphs apart from this it also explains how the data is related to the underlying real world. the statical analysis is also used to identifying the pattern or trends for predictive analytics which helps to make the business decision, it also helps to determine the statical significance of the data set.
+- Data Model Development - deploy a model with predictive capabilities.
+- Recommendations/Report/Story - data analytics process where analysis decision is summarized and the result or consequences of the analysis process is represented in terms of story, report, recommendations and PPT, tableau and SAS application plays an important role to summarize the analysis process via a report or story building.
 
 ## Technologies Used for Each Step of the Project:
 
