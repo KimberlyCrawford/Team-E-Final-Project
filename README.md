@@ -7,25 +7,17 @@ A temperature analysis performed by CGL Analytics to predict temperature changes
 
 ### Purpose
 
-#### Background: 
-
-Fries Cryogenic Research and Development Center (FCRDC) is currently located in Gotham City, New Jersey and operated by the family of Dr. Victor Fries, a known scientist with high intelligence and skills in physics, engineering, genetics, computer science, chemistry, and medical science. In 2001, Dr. Fries was severely injured from an equipment malfunction and laboratory explosion while conducting a cryogenic technology experiment to cure his terminally ill wife. The accident took his wife’s life and drastically lowered his body temperature forcing him to wear a cryogenic suit to survive. As a result of the accident, he fell into a deep depression and turned to crime under the alias, Mr. Freeze. Fortunately, he was captured by Batman and Robin and has been incarcerated for the past 20 years in Antarctica. During his time in prison, Mr. Freeze was rehabilitated and positively contributed to the research conducted by FCRDC. With his parole hearing coming up and anticipation of his release, he wants to relocate FCRDC’s headquarters to a major city with an average temperature of <=32 degrees Fahrenheit. The CEO of FCRDC has contracted CGL Analytics to conduct a temperature analysis that predicts major cities that meet these requirements and wants CGL Analytics to recommendation the top five locations that will have the most projected months <= 32 and be in a major metropolitan area to attract and maintain high quality employees.
-
 #### Reasons Why Project Topic was Selected:
 
-Global climate change has started to become an issue due to changing temperatures around the globe. In order to address this issue, we (CGL Analytics) want to make it possible for individuals to get machine learned temperature predictions based on weather data since 1913. This will help FCRDC predict future temperatures before purchasing land or property for their new location.
+Global climate change has started to become an issue due to changing temperatures around the globe. In order to address this issue, our team was interested in created a machine learned model for predicting temperature changes. Therefore, we wanted to expand on our experiences from the Boot Camp modules (i.e. the Mapping Earthquakes Challenge, UFO Sightings) while creating a fun project..
+
+#### Our Scenario: 
+
+Fries Cryogenic Research and Development Center (FCRDC) is currently located in Gotham City, New Jersey and operated by the family of Dr. Victor Fries, a known scientist with high intelligence and skills in physics, engineering, genetics, computer science, chemistry, and medical science. In 2001, Dr. Fries was severely injured from an equipment malfunction and laboratory explosion while conducting a cryogenic technology experiment to cure his terminally ill wife. The accident took his wife’s life and drastically lowered his body temperature forcing him to wear a cryogenic suit to survive. As a result of the accident, he fell into a deep depression and turned to crime under the alias, Mr. Freeze. Fortunately, he was captured by Batman and Robin and has been incarcerated for the past 20 years in Antarctica. During his time in prison, Mr. Freeze was rehabilitated and positively contributed to the research conducted by FCRDC. With his parole hearing coming up and anticipation of his release, he wants to relocate FCRDC’s headquarters to a major city with an average temperature of <=32 degrees Fahrenheit. The CEO of FCRDC has contracted CGL Analytics to conduct a temperature analysis that predicts major cities that meet these requirements and wants CGL Analytics to recommendation the top five locations that will have the most projected months <= 32 and be in a major metropolitan area to attract and maintain high quality employees. The machine learning model will help FCRDC predict future temperatures before purchasing land or property for their new location.
 
 #### Project Goals: 
 
-The purpose of this project was to download data for analysis, create a database to house the data, apply machine learning to tell a story about the data, and display the results in a dashboard. 
-
-#### Questions CGL Analytics Hopes to Answer with the Data:
-
-1) Which major cities in our dataset have an average temperature of <=32 degrees Fahrenheit?
-
-2) Out of the results, which cities are located in a major metropolitan area?
-
-3) What are the top five locations that will have the most projected months <= 32 and be in a major metropolitan area?
+The goals of this project was to download data for analysis, create a database to house the data, apply machine learning to tell a story about the data, and display the results in a dashboard. 
 
 ## Data Source Description
 
@@ -34,6 +26,14 @@ The purpose of this project was to download data for analysis, create a database
 ![Kaggle_original.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Kaggle_original.png)
 
 - The following data was cleaned for analysis and resulted in a dataset with 239,177 records: [CleanedGlobalLandTemperaturesByMajorCity.csv](https://cgl-analytics-city-data.s3.us-east-2.amazonaws.com/CleanedGlobalLandTemperaturesByMajorCity.csv) 
+
+#### Questions CGL Analytics Hopes to Answer with the Data:
+
+1) Which major cities in our dataset have an average temperature of <=32 degrees Fahrenheit?
+
+2) Out of the results, which cities are located in a major metropolitan area?
+
+3) What are the top five locations that will have the most projected months <= 32 and be in a major metropolitan area?
 
 ## Data Exploration Phase
 
@@ -52,7 +52,7 @@ Data was explored using the ETL process:
 
 - Python was used to prepare and explore the data, as well as complete initial analysis. 
 - Python and JavaScript libraries were used such as Data-Driven Documents, or D3, and Plotly, 
-- pgAdmin 4 Database was used to store cleaned data. 
+- PostgreSQL was used to write queries and view results while pgAdmin 4 Database was used to store cleaned data. 
 - Tableau was used to create a heatmap.
 - Machine learning was implemented to enhance the topic. 
 - Tableau and JavaScript was used to build a dashboard to present the results. 
@@ -106,7 +106,6 @@ We will use temperature data by month on Major cities to predict the monthly tem
 The following is a screenshot of our Dashboard blueprint:
 
 ![Dashboard.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Dashboard.png)
-
 
 ## Final Project Deliverables
 
