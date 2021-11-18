@@ -75,11 +75,28 @@ A group project channel was created in Slack for team members to communicate and
 
 #### 2) Machine Learning Model
 
-Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions. A machine learning model is presented with a dataset, the model algorithms analyze the data and attempt to identify patterns, and makes predictions on new data. Since our dataset deals with labeled continuous data variables, we will be using a supervised regression learning model. 
+Machine learning is the use of statistical algorithms to perform tasks such as learning from data patterns and making predictions. A machine learning model is presented with a dataset, the model algorithms analyze the data and attempt to identify patterns and makes predictions on new data. Since our dataset deals with labeled continuous data variables, we will be using a supervised regression learning model.
+
+Based on our machine learning chart we will be using: Sarima Model
 
 ![SARIMA-QUÉ-ES-1-860x280](https://user-images.githubusercontent.com/82718969/141689949-9dee84cd-5d99-4921-b23e-401ceb667c39.jpg)
 
+
+<<<<<<< HEAD
+![SARIMA-QUÉ-ES-1-860x280](https://user-images.githubusercontent.com/82718969/141689949-9dee84cd-5d99-4921-b23e-401ceb667c39.jpg)
+
 Based on our machine learning chart we will be using: Sarima
+=======
+How we are deciding what model to use:
+
+We needed to come up with a model that would predict cyclicly as temperatures change based on seasons. We choose Sarima as our model because it allows the model to learn based on seasonal cycles. It evaluates the data based on an input pattern so we can tell the model to look at the monthly average temperatures by year and not compare the months to one another within a given year.
+
+
+##### for more information please follow the link:
+https://towardsdatascience.com/understanding-sarima-955fe217bc77
+
+
+>>>>>>> 853118140db3994745a95d6f333a4751e51e97ee
 
 We will use temperature data by month on Major cities to predict the monthly temperatures of cities that fall within our CEO's specifications for a new headquarters.
 
