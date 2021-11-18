@@ -1,6 +1,6 @@
-city,dt,averagetemperature,average_property_value_per_square_meter_usd
-Changchun,2093-10-01,25,555
-Harbin,2093-10-01,21,555
-Montreal,2093-10-01,66,2150
-Moscow,2093-10-01,28,2965
-Saint Petersburg,2093-10-01,33,2965
+city,dt,averagetemperature,average_property_value_per_square_meter_usd,Latitude,Longitude
+Changchun,10/1/2093,25,555,44.20N,125.22E
+Harbin,10/1/2093,21,555,45.81N,125.77E
+Montreal,10/1/2093,66,2150,45.81N,72.69W
+Moscow,10/1/2093,28,2965,55.45N,36.85E
+Saint Petersburg,10/1/2093,33,2965,60.27N,29.19E
