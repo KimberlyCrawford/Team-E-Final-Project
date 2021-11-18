@@ -1,4 +1,4 @@
-!{Title.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Title.png)
+![Title.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Title.png)
 
 #### Final Project by Team E: CGL Analytics (Kimberly Crawford, Gary Goodman, and Trevor Lanouette)
 
