@@ -51,3 +51,85 @@ ON ave_cost.city = cold_cities.city;
 
 --View ave_cost_cold_cities
 SELECT * FROM ave_cost_cold_cities;
+
+--Create final data
+CREATE TABLE final_data (
+	 Unnamed INT NOT NULL,
+     dt DATE NOT NULL,
+	 City VARCHAR (50) NOT NULL,
+	 forec decimal (5,0),
+	 s_forec decimal (5,0),
+	 AverageTemperature decimal (5,0),
+     PRIMARY KEY (Unnamed)
+);
+
+--Create final data
+CREATE TABLE final_data (
+	 id INT NOT NULL,
+     dt DATE NOT NULL,
+	 City VARCHAR (50) NOT NULL,
+	 forec decimal (5,0),
+	 s_forec decimal (7,0),
+	 AverageTemperature decimal (5,0),
+	 key INT NOT NULL,
+     PRIMARY KEY (key)
+);
+
+DROP TABLE final_data
+
+-- View final_data
+SELECT * FROM final_data;
+
+--Create harbin table (change harbin to any other city to create that cities table)
+CREATE TABLE harbin (
+	 id INT NOT NULL,
+     dt DATE NOT NULL,
+	 City VARCHAR (50) NOT NULL,
+	 forec decimal (5,0),
+	 s_forec decimal (5,0),
+     PRIMARY KEY (id)
+);
+
+-- View montreal
+SELECT * FROM montreal;
+
+--DROP TABLE montreal
+
+
+--Create table montreal
+CREATE TABLE montreal (
+	 id INT NOT NULL,
+     dt DATE,
+	 City VARCHAR (50) NOT NULL,
+	 forec decimal (5,0),
+	 s_forec decimal (5,0),
+     PRIMARY KEY (id)
+);
+
+
+--Create map_data, first table will be map_data0
+SELECT DISTINCT City, dt, AverageTemperature 
+INTO map_data0
+FROM final_data
+WHERE id=2074
+;
+
+--DROP TABLE map_data0
+
+-- View map_data parts
+SELECT * FROM map_data0;
+SELECT * FROM ave_cost_cold_cities;
+
+-- Join ave_cost_cold_cities with map_data0 to create map_data
+SELECT map_data0.city,
+	map_data0.dt,
+	map_data0.averagetemperature,
+	ave_cost_cold_cities.average_property_value_per_square_meter_usd
+INTO map_data
+FROM map_data0
+LEFT JOIN ave_cost_cold_cities
+ON ave_cost_cold_cities.city = map_data0.city;
+
+SELECT * FROM map_data;
+
+--DROP TABLE map_data;
