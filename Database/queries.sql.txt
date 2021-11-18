@@ -51,3 +51,43 @@ ON ave_cost.city = cold_cities.city;
 
 --View ave_cost_cold_cities
 SELECT * FROM ave_cost_cold_cities;
+
+--Create final data
+CREATE TABLE final_data (
+	 Unnamed INT NOT NULL,
+     dt DATE NOT NULL,
+	 City VARCHAR (50) NOT NULL,
+	 forec decimal (5,0),
+	 s_forec decimal (5,0),
+	 AverageTemperature decimal (5,0),
+     PRIMARY KEY (Unnamed)
+);
+
+-- View final_data
+SELECT * FROM final_data;
+
+--Create harbin table (change harbin to any other city to create that cities table)
+CREATE TABLE harbin (
+	 id INT NOT NULL,
+     dt DATE NOT NULL,
+	 City VARCHAR (50) NOT NULL,
+	 forec decimal (5,0),
+	 s_forec decimal (5,0),
+     PRIMARY KEY (id)
+);
+
+-- View montreal
+SELECT * FROM montreal;
+
+--DROP TABLE montreal
+
+
+--Create table montreal
+CREATE TABLE montreal (
+	 id INT NOT NULL,
+     dt DATE,
+	 City VARCHAR (50) NOT NULL,
+	 forec decimal (5,0),
+	 s_forec decimal (5,0),
+     PRIMARY KEY (id)
+);
