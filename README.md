@@ -9,21 +9,23 @@ A temperature analysis performed by CGL Analytics to predict temperature changes
 
 #### Background: 
 
-Fries Cryogenic Research and Development Center (FCRDC) is currently located in Gotham City, New Jersey and operated by the family of Dr. Victor Fries, a known scientist with high intelligence and skills in physics, engineering, genetics, computer science, chemistry, and medical science. In 2001, Dr. Fries was severely injured from an equipment malfunction and laboratory explosion while conducting a cryogenic technology experiment to cure his terminally ill wife. The accident took his wife’s life and drastically lowered his body temperature forcing him to wear a cryogenic suit to survive. As a result of the accident, he fell into a deep depression and turned to crime under the alias, Mr. Freeze. Fortunately, he was captured by Batman and Robin and has been incarcerated for the past 20 years in Antarctica. During his time in prison, Mr. Freeze was rehabilitated and positively contributed to the research conducted by FCRDC. With his parole hearing coming up and anticipation of his release, he wants to relocate FCRDC’s headquarters to a major city with an average temperature of <=32 degrees Fahrenheit. The CEO of FCRDC has contracted CGL Analytics to conduct a temperature analysis and predict which cities meet these requirements based on data over the last 100 years. The recommended top location will have the most projected months <= 32 and be a major metropolitan area to attract and maintain high quality employees.
+Fries Cryogenic Research and Development Center (FCRDC) is currently located in Gotham City, New Jersey and operated by the family of Dr. Victor Fries, a known scientist with high intelligence and skills in physics, engineering, genetics, computer science, chemistry, and medical science. In 2001, Dr. Fries was severely injured from an equipment malfunction and laboratory explosion while conducting a cryogenic technology experiment to cure his terminally ill wife. The accident took his wife’s life and drastically lowered his body temperature forcing him to wear a cryogenic suit to survive. As a result of the accident, he fell into a deep depression and turned to crime under the alias, Mr. Freeze. Fortunately, he was captured by Batman and Robin and has been incarcerated for the past 20 years in Antarctica. During his time in prison, Mr. Freeze was rehabilitated and positively contributed to the research conducted by FCRDC. With his parole hearing coming up and anticipation of his release, he wants to relocate FCRDC’s headquarters to a major city with an average temperature of <=32 degrees Fahrenheit. The CEO of FCRDC has contracted CGL Analytics to conduct a temperature analysis that predicts major cities that meet these requirements and wants CGL Analytics to recommendation the top five locations that will have the most projected months <= 32 and be in a major metropolitan area to attract and maintain high quality employees.
+
+#### Reasons Why Project Topic was Selected:
+
+Global climate change has started to become an issue due to changing temperatures around the globe. In order to address this issue, we (CGL Analytics) want to make it possible for individuals to get machine learned temperature predictions based on weather data since 1913. This will help FCRDC predict future temperatures before purchasing land or property for their new location.
 
 #### Project Goals: 
 
 The purpose of this project was to download data for analysis, create a database to house the data, apply machine learning to tell a story about the data, and display the results in a dashboard. 
 
-#### Reasons Why Project Topic was Selected:
+#### Questions CGL Analytics Hopes to Answer with the Data:
 
-Global climate change has started to become an issue due to changing temperatures around the globe. In order to address this issue, we (CGL Analytics) want to make it possible for individuals to get machine learned temperature predictions based on weather data from the past 100 years. This will help FCRDC to predict future temperatures before purchasing land or property for their new location.
-
-#### Questions We Hope to Answer with the Data:
-
-1) Which cities in our dataset have an average temperature of 32 degrees or below?
+1) Which major cities in our dataset have an average temperature of <=32 degrees Fahrenheit?
 
 2) Out of the results, which cities are located in a major metropolitan area?
+
+3) What are the top five locations that will have the most projected months <= 32 and be in a major metropolitan area?
 
 ## Data Source Description
 
