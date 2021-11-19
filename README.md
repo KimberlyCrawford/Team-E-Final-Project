@@ -90,7 +90,7 @@ We will use temperature data by month on Major cities to predict the monthly tem
 
 - A SQL database was created based on the following ERD:
 
-![filename.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/filename.png)
+![ERD.JPG](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/ERD.JPG)
 
 -The following datasets were imported into pgAdmin:
 
