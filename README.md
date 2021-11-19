@@ -104,9 +104,13 @@ We will use temperature data by month on Major cities to predict the monthly tem
 
 #### 4) Dashboard
 
-The following is a screenshot of our Dashboard blueprint:
+The following is a screenshot of our final Dashboard presented to FCRDC:
 
-![Dashboard.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Dashboard.png)
+![entire_map.JPG](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/entire_map.JPG)
+
+Below is a screenshot of the top major city recommended for new headquarters:
+
+![entire_map.JPG](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/entire_map.JPG)
 
 ## Final Project Deliverables
 
