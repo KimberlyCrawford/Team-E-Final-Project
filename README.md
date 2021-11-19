@@ -64,15 +64,6 @@ Step 3 (Load) - the data was written into a database for storage with 5,565 rows
 - Tableau and JavaScript was used to build a dashboard to present the results. 
 - Google Slides were used to prepare and deliver the presentation that walks the class through the project, step by step.
 
-## Description of Communication Protocols
-
-A group project channel was created in Slack for team members to communicate and GitHub was used to manage files. Below are the assigned roles:
-
-- Square: Kimberly Crawford was responsible for the repository and presentation.
-- Triangle: Trevor Lanouette created a mockup of a machine learning model which included a diagram that explains how the model worked concurrently with the rest of the project steps.
-- Circle: Gary Goodman created a mockup of the database with a set of sample data.
-- X: Since the team only has three members, all three members decided which technologies to use for each step of the project.
-
 ## GitHub Branches
 
 #### 1) Presentation 
