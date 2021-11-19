@@ -110,7 +110,7 @@ The following is a screenshot of our final Dashboard presented to FCRDC:
 
 Below is a screenshot of the top major city recommended for new headquarters:
 
-![entire_map.JPG](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/entire_map.JPG)
+![Maptopchoice.JPG](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Maptopchoice.JPG)
 
 ## Final Project Deliverables
 
