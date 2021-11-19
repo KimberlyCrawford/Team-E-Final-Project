@@ -29,4 +29,7 @@ let cities = [{
     avgtemp: "33",
     cost: 2965
   }
+
+
   ];
+
