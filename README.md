@@ -7,4 +7,5 @@ How we are deciding what model to use:
 
 Based on our machine learning chart we will be using: Sarima
 
+Sarima learns based on cyclic paterns that are programed into the model before training. The model trains on the previous data inorder to make predictions for the future. This works great for weather data as it is cyclic by season through each year.
 We will use temperature data by month on Major cities to predict the monthly temperatures of cities that fall within our CEO's specifications for a new headquarters.
