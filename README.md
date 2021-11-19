@@ -41,6 +41,12 @@ Data was explored using the ETL process:
 
 ![ETL.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/ETL.png)
 
+Step 1 (Extract)- the data was read into a Panda DataFrame with 239,177 rows and 7 columns.
+Step 2 (Transform) - the data was cleaned and structured into a DataFrame identifying the top 5 cities with average temperature <=32.
+Step 3 (Load) - the data was written into a database for storage with 5,565 rows and 7 columns.
+
+![ETL.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/ETL.png)
+
 ## Analysis Phase
 
 - Data Visualization - develop the hypothesis or insights to explore and evaluate the data using Tableau. 
