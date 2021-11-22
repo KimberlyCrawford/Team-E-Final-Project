@@ -49,7 +49,7 @@ The goals of this project was to download data for analysis, create a database t
 
 The data consisted of 239,177 observations with 7 columns: dt, AverageTemperature, AverageTemperatureUncertainty, City, Country, Latitude and Longitude. Five variables were objects while two were decimals (float64).
 
-![ETL.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/ETL.png)
+![Extract.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Extract.png)
 
 ![ETL.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/ETL.png)
 
