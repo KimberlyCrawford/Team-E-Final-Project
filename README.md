@@ -51,7 +51,7 @@ The data consisted of 239,177 observations with 7 columns: dt, AverageTemperatur
 
 ![Extract.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Extract.png)
 
-![ETL.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/ETL.png)
+![Data_types.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Data_types.png)
 
 Data was explored using the ETL process: 
 
