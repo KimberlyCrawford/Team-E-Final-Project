@@ -95,7 +95,7 @@ Based on Scikit-learn Algorithm Cheat Sheet, our team needed to build a regressi
 
 We chose to build a Sarima model, because Sarima learns based on cyclic patterns that are programed into the model before training. The model trains on the previous data in order to make predictions for the future. This works great for weather data as it is cyclic by season through each year. We will use temperature data by month on Major cities to predict the monthly temperatures of cities that fall within our CEO's specifications for a new headquarters.
 
-![Sarima.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Sarima.png)
+![Sarima.jpg](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Sarima.jpg)
 
 Below are the steps in the time series model:
 
