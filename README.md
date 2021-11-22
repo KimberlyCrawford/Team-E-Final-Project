@@ -168,15 +168,12 @@ Database Connection
 
 ## Technologies Used for Each Step of the Project:
 
-- Python was used to prepare and explore the data, as well as complete initial analysis. 
-- Python and JavaScript libraries were used such as Data-Driven Documents, or D3, and Plotly, 
+- Python was used to prepare and explore the data, as well as build machine learning model. 
 - PostgreSQL was used to write queries and view results while pgAdmin 4 Database was used to store cleaned data. 
-- Tableau was used to create a heatmap.
-- Machine learning was implemented to enhance the topic. 
-- Tableau and JavaScript was used to build a dashboard to present the results. 
-- Google Slides were used to prepare and deliver the presentation that walks the class through the project, step by step.
+- JavaScript was used to create tables and build a dashboard to present the results. 
+- Google Slides was used to prepare and deliver the presentation that walks the class through the project, step by step.
 
-See [Packages and Libraries](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/requirements.txt) for a list used in the project.
+See [Packages and Libraries](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/requirements.txt) for a list used in all technologies.
 
 ## Dashboard
 
