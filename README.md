@@ -87,36 +87,64 @@ Source: [What is Feature Engineering?](https://www.omnisci.com/technical-glossar
 
 ![Model_216.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Model_216.png)
 
-## Technologies Used for Each Step of the Project:
+### Machine Learning Model
 
-- Python was used to prepare and explore the data, as well as complete initial analysis. 
-- Python and JavaScript libraries were used such as Data-Driven Documents, or D3, and Plotly, 
-- PostgreSQL was used to write queries and view results while pgAdmin 4 Database was used to store cleaned data. 
-- Tableau was used to create a heatmap.
-- Machine learning was implemented to enhance the topic. 
-- Tableau and JavaScript was used to build a dashboard to present the results. 
-- Google Slides were used to prepare and deliver the presentation that walks the class through the project, step by step.
+Based on Scikit-learn Algorithm Cheat Sheet, our team needed to build a regression machine learning model because our target variable was quantitative. 
 
-## GitHub Branches
+![scikit-learn_cheatsheet.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/scikit-learn_cheatsheet.png)
 
-#### 1) Presentation 
+We chose to build a Sarima model, because Sarima learns based on cyclic patterns that are programed into the model before training. The model trains on the previous data in order to make predictions for the future. This works great for weather data as it is cyclic by season through each year. We will use temperature data by month on Major cities to predict the monthly temperatures of cities that fall within our CEO's specifications for a new headquarters.
 
-[Presentation](https://docs.google.com/presentation/d/1WZC2bXoTtV8-X5zU-iLXQ76XYvIbZpF_7lVa6u-mnTE/edit?usp=sharing)
+![Sarima.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Sarima.png)
 
-![Presentation.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Presentation.png)
+Below are the steps in the time series model:
 
-#### 2) Machine Learning Model
+![Time_series.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Time_series.png)
 
-How we are deciding what model to use:
-![SARIMA-QUÉ-ES-1-860x280](https://user-images.githubusercontent.com/82718969/141689949-9dee84cd-5d99-4921-b23e-401ceb667c39.jpg)
+#### Benefits and Limitations
 
+- Benefits: SAMIRA is the only statistical method able to outperform, but without a statistical difference, the following machine learning algorithms: ANN, SVM, and kNN-TSPI. Statistical methods based on auto regression and Moving Averages (MA) are considered the state-of-the-art for time series modeling and prediction. 
 
-Based on our machine learning chart we will be using: Sarima
+- Limitations: Such forecasting accuracy comes at the expense of a larger number of parameters. Usage of these parametric methods requires sophisticated mathematical concepts as well as vast technical expertise for the establishment of the model’s parameters.
 
-Sarima learns based on cyclic paterns that are programed into the model before training. The model trains on the previous data inorder to make predictions for the future. This works great for weather data as it is cyclic by season through each year.
-We will use temperature data by month on Major cities to predict the monthly temperatures of cities that fall within our CEO's specifications for a new headquarters.
+Source: Evaluation of statistical and machine learning models for time series prediction: Identifying the state-of-the-art and the best conditions for the use of each model
 
-#### 3) Database
+#### Changes in Model Choice
+
+Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+
+#### How Model was Trained
+
+The time series prediction process covers six steps:
+- Step 1 partitions the time series in two sequences: one before the prediction horizon, which is intended to the model training (building and fit); and another after that period, which is used to test (evaluate) the quality of the fitted model. 
+
+- Step 2 chooses the predictive model structure based on data characteristics and estimates the parameters using some search technique. Usually, the algorithm that implements this technique receives as input the training sequence, which is subdivided into subsequences (samples) for training and validation, and a set of predefined parameters. At each iteration, the algorithm seeks for parameters values that minimize the predictive error of the model. 6 Test Sequence Training Sequence Time Series y(t) t t y(t) 1 0.05 2 0.10 3 0.15 4 0.20 ⁞ ⁞ 97 0.15 98 0.20 99 0.25 100 0.30 ① Parameter ② Estimation Model Building ③ and Model Fit Prediction ④ of Values Predicted Sequence Performance ⑤ Evaluation y(t) t Prediction of ⑥ Future Values Figure 4: Time series prediction process Global Local Exponential Smoothing ARIMA Prediction Methods Parametric Non-parametric Figure 5: Hierarchy of approaches for time series prediction 
+
+- Step 3 builds the model with the previously found parameters values and fits the training sequence data. 
+
+- Step 4 model is then extrapolated, in the fourth step, for the periods of the test sequence. Evidently, the prediction error of the model reflects the chosen values for the parameters. Such error can be amplified for long time horizons. The fourth step also chooses the strategy to predict the values of a time series several periods ahead (prediction horizon h > 1). The most intuitive strategy is known as multi-step (or recursive), where the prediction of h > 1 is conducted h successive times considering a predictive model with h = 1 [3]. After the model’s extrapolation, the predicted value or the respective actual value can be employed to calculate the next prediction. In this paper, when the predicted values are used, we called the strategy of multi-step-ahead with approximate iteration. Otherwise, when the actual values are adopted, the strategy is called multi-step-ahead with updated iteration. 
+
+- Step 5 compares the predicted values to the test sequence to measure the model’s accuracy. The performance analysis is essential given that distinct models may have similar adjustments, but result in significantly different predictive values. 
+
+- Step 6 makes predictions for future periods of the time series. This step should monitor the prediction error as soon as the actual values of the series arrive. This monitoring aims to indicate when it is necessary to update the model with new data or readjust its parameters since the distribution of most recent data is distinct from old data. 
+
+#### SAMIRA Results
+
+![Results_0.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Results_0.png)
+
+![Results_2.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Results_2.png)
+
+![Prediction_comparison.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Prediction_comparison.png)
+
+![Prediction1_vs_Actual.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Prediction1_vs_Actual.png)
+
+![Prediction2_vs_Actual.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Prediction2_vs_Actual.png)
+
+#### Model’s Confusion Matrix & Final Accuracy Score
+
+??????
+
+### Database
 
 - A SQL database was created based on the following ERD:
 
@@ -130,9 +158,29 @@ We will use temperature data by month on Major cities to predict the monthly tem
 
 ![CVS_joins.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/CVS_joins.png)
 
-- See the following text file for queries: https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Database/queries.sql.txt
+- See the following text file for queries: https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Database/queries.sql.txt 
 
-#### 4) Dashboard
+Database Connection
+
+![Database_connection.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Database_connection.png)
+
+![Tables_joined.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Tables_joined.png)
+
+![Table_to_Database.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Table_to_Database.png)
+
+## Technologies Used for Each Step of the Project:
+
+- Python was used to prepare and explore the data, as well as complete initial analysis. 
+- Python and JavaScript libraries were used such as Data-Driven Documents, or D3, and Plotly, 
+- PostgreSQL was used to write queries and view results while pgAdmin 4 Database was used to store cleaned data. 
+- Tableau was used to create a heatmap.
+- Machine learning was implemented to enhance the topic. 
+- Tableau and JavaScript was used to build a dashboard to present the results. 
+- Google Slides were used to prepare and deliver the presentation that walks the class through the project, step by step.
+
+See Packages and Libraries for a list used in the project.
+
+## Dashboard
 
 The following is a screenshot of our final Dashboard presented to FCRDC:
 
@@ -142,7 +190,38 @@ Below is a screenshot of the top major city recommended for new headquarters:
 
 ![Maptopchoice.JPG](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Maptopchoice.JPG)
 
-## Final Project Deliverables
+## GitHub Branches Created During Project
+
+#### 1) Presentation 
+
+[Presentation](https://docs.google.com/presentation/d/1WZC2bXoTtV8-X5zU-iLXQ76XYvIbZpF_7lVa6u-mnTE/edit?usp=sharing)
+
+![Presentation.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Presentation.png)
+
+#### 2) Machine Learning Model
+
+See above Data Analysis Phase section.
+
+#### 3) Database
+
+See above Database section.
+
+#### 4) Dashboard
+
+See above Dashboard section.
+
+## Recommendation for Future Analysis
+
+- Add additional city datasets to provide more information about the top five cities, so upper management can thoroughly compare the top five cities.
+- ???
+- ???
+
+## Anything Team Would Have Done Differently
+
+- Selected a different topic, since the machine learning model was so extensive.
+- Scheduled more group meetings to collaborate on code and help teammates.
+
+## Final Project Deliverables in Four Segments
 
 ### First Segment: Sketch It Out
 
