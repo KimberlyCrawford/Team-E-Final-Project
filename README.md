@@ -3,13 +3,23 @@
 #### Final Project by Team E: CGL Analytics (Kimberly Crawford, Gary Goodman, and Trevor Lanouette)
 
 ## Overview
-A temperature analysis performed by CGL Analytics to predict temperature changes in major cities with average <=32 degrees Fahrenheit temperatures.
+An analysis to predict temperature changes in major cities with average <=32 degrees Fahrenheit.
+
+Topic: Temperature Predictions for Property Investment Decisions
 
 ### Purpose
 
 #### Reasons Why Project Topic was Selected:
 
-Global climate change has started to become an issue due to changing temperatures around the globe. In order to address this issue, our team was interested in created a machine learned model for predicting temperature changes. Therefore, we wanted to expand on our experiences from the Boot Camp modules (i.e. the Mapping Earthquakes Challenge, UFO Sightings) while creating a fun project..
+Our team wanted to select a topic that would showcase our experiences and skills developed throughout this course. As we glanced back through the modules, a few challenges stood out to us that we all enjoyed working on: 
+
+- Module 6: WeatherPy with Python APIs
+- Module 8: ETL using SQL
+- Module 11: Using JavaScript and HTML
+- Module 13: Mapping Earthquakes with JavaScript and APIs
+- Module 17: Supervised Machine Learning.
+
+Global climate change has started to become an issue due to changing temperatures around the globe. In order to address this issue, our team (CGL Analytics) was interested in creating a machine learned model for predicting temperature changes when it comes to making decisions about property investments.
 
 #### Our Scenario: 
 
@@ -36,6 +46,12 @@ The goals of this project was to download data for analysis, create a database t
 3) What are the top five locations that will have the most projected months <= 32 and be in a major metropolitan area?
 
 ## Data Exploration Phase
+
+The data consisted of 239,177 observations with 7 columns: dt, AverageTemperature, AverageTemperatureUncertainty, City, Country, Latitude and Longitude. Five variables were objects while two were decimals (float64).
+
+![ETL.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/ETL.png)
+
+![ETL.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/ETL.png)
 
 Data was explored using the ETL process: 
 
