@@ -5,9 +5,9 @@
 ## Overview
 An analysis to predict temperature changes in major cities with average <=32 degrees Fahrenheit. Topic: Temperature Predictions for Property Investment Decisions
 
-### Purpose
+## Purpose
 
-#### Reasons Why Project Topic was Selected:
+### Reasons Why Project Topic was Selected:
 
 Our team wanted to select a topic that would showcase our experiences and skills developed throughout this course. As we glanced back through the modules, a few challenges stood out to us that we all enjoyed working on: 
 
@@ -19,11 +19,11 @@ Our team wanted to select a topic that would showcase our experiences and skills
 
 Global climate change has started to become an issue due to changing temperatures around the globe. In order to address this issue, our team (CGL Analytics) was interested in creating a machine learned model for predicting temperature changes when it comes to making decisions about property investments.
 
-#### Our Scenario: 
+### Our Scenario: 
 
 Fries Cryogenic Research and Development Center (FCRDC) is currently located in Gotham City, New Jersey and operated by the family of Dr. Victor Fries, a known scientist with high intelligence and skills in physics, engineering, genetics, computer science, chemistry, and medical science. In 2001, Dr. Fries was severely injured from an equipment malfunction and laboratory explosion while conducting a cryogenic technology experiment to cure his terminally ill wife. The accident took his wife’s life and drastically lowered his body temperature forcing him to wear a cryogenic suit to survive. As a result of the accident, he fell into a deep depression and turned to crime under the alias, Mr. Freeze. Fortunately, he was captured by Batman and Robin and has been incarcerated for the past 20 years in Antarctica. During his time in prison, Mr. Freeze was rehabilitated and positively contributed to the research conducted by FCRDC. With his parole hearing coming up and anticipation of his release, he wants to relocate FCRDC’s headquarters to a major city with an average temperature of <=32 degrees Fahrenheit. The CEO of FCRDC has contracted CGL Analytics to conduct a temperature analysis that predicts major cities that meet these requirements and wants CGL Analytics to recommendation the top five locations that will have the most projected months <= 32 and be in a major metropolitan area to attract and maintain high quality employees. The machine learning model will help FCRDC predict future temperatures before purchasing land or property for their new location.
 
-#### Project Goals: 
+### Project Goals: 
 
 The goals of this project was to download data for analysis, create a database to house the data, apply machine learning to tell a story about the data, and display the results in a dashboard. 
 
@@ -35,7 +35,7 @@ The goals of this project was to download data for analysis, create a database t
 
 - The following data was cleaned for analysis and resulted in a dataset with 239,177 records: [CleanedGlobalLandTemperaturesByMajorCity.csv](https://cgl-analytics-city-data.s3.us-east-2.amazonaws.com/CleanedGlobalLandTemperaturesByMajorCity.csv) 
 
-#### Questions CGL Analytics Hopes to Answer with the Data:
+## Questions CGL Analytics Hopes to Answer with the Data:
 
 1) Which major cities in our dataset have an average temperature of <=32 degrees Fahrenheit?
 
@@ -142,7 +142,7 @@ The time series prediction process covers six steps:
 
 ??????
 
-### Database
+## Database
 
 - A SQL database was created based on the following ERD:
 
@@ -190,23 +190,19 @@ Below is a screenshot of the top major city recommended for new headquarters:
 
 ## GitHub Branches Created During Project
 
+The following branches were created throughout the project, merged into main, and then deleted.
+
 #### 1) Presentation 
 
 [Presentation](https://docs.google.com/presentation/d/1WZC2bXoTtV8-X5zU-iLXQ76XYvIbZpF_7lVa6u-mnTE/edit?usp=sharing)
 
 ![Presentation.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Presentation.png)
 
-#### 2) Machine Learning Model
+#### 2) Machine Learning Model (See above Data Analysis Phase section)
 
-See above Data Analysis Phase section.
+#### 3) Database (See above Database section)
 
-#### 3) Database
-
-See above Database section.
-
-#### 4) Dashboard
-
-See above Dashboard section.
+#### 4) Dashboard (See above Dashboard section)
 
 ## Recommendation for Future Analysis
 
@@ -222,17 +218,13 @@ See above Dashboard section.
 ## Final Project Deliverables in Four Segments
 
 ### First Segment: Sketch It Out
-
 Decide on your overall project, select your question, and build a simple model. You'll connect the model to a fabricated database, using comma-separated values (CSV) or JavaScript Object Notation (JSON) files, to prototype your idea.
 
 ### Second Segment: Build the Pieces
-
 Train your model and build out the database you'll use for your final presentation.
 
 ### Third Segment: Plug It In
-
 Connect your final database to your model, continue to train your model, and create your dashboard and presentation.
 
 ### Fourth Segment: Put It All Together
-
 Put the final touches on your model, database, and dashboard. Lastly, create and deliver your final presentation to your class.
