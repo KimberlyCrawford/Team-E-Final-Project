@@ -150,6 +150,8 @@ The time series prediction process covers six steps:
 
 -The following datasets were imported into pgAdmin:
 
+[Datasets](https://github.com/KimberlyCrawford/Team-E-Final-Project/tree/main/Data)
+
 - The following tables were created, joined and exported to CSV files:
 
 ![CVS_cold_cities.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/CVS_cold_cities.png)
