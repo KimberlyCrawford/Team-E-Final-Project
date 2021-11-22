@@ -53,6 +53,8 @@ The data consisted of 239,177 observations with 7 columns: dt, AverageTemperatur
 
 ![Data_types.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Data_types.png)
 
+## Data Preprocessing
+
 Data was explored using the ETL process: 
 
 ![ETL.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/ETL.png)
@@ -63,12 +65,27 @@ Step 3 (Load) - the data was written into a database for storage with 5,565 rows
 
 ![ETL_steps.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/ETL_steps.png)
 
-## Analysis Phase
+## Data Analysis Phase
 
-- Data Visualization - develop the hypothesis or insights to explore and evaluate the data using Tableau. 
-- Statical Analysis - summarize the data and it’s understanding in terms of model and graphs apart from this it also explains how the data is related to the underlying real world. the statical analysis is also used to identifying the pattern or trends for predictive analytics which helps to make the business decision, it also helps to determine the statical significance of the data set.
-- Data Model Development - deploy a model with predictive capabilities.
-- Recommendations/Report/Story - data analytics process where analysis decision is summarized and the result or consequences of the analysis process is represented in terms of story, report, recommendations and PPT, tableau and SAS application plays an important role to summarize the analysis process via a report or story building.
+### Feature Engineering
+
+Predictive models consist of an outcome variable and predictor variables, and it is during the feature engineering process that the most useful predictor variables are created and selected for the predictive model. Feature engineering in ML consists of four main steps: Feature Creation, Transformations, Feature Extraction, and Feature Selection.
+
+Source: [What is Feature Engineering?](https://www.omnisci.com/technical-glossary/feature-engineering)
+
+![Feature_engineering.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Feature_engineering.png)
+
+### Data Split for Training and Testing
+
+![Stats_whole.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Stats_whole.png)
+
+![Stats_1stdecade.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Stats_1stdecade.png)
+
+![Split.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Split.png)
+
+![Model_215.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Model_215.png)
+
+![Model_216.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Model_216.png)
 
 ## Technologies Used for Each Step of the Project:
 
