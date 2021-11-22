@@ -168,8 +168,9 @@ Database Connection
 
 ## Technologies Used for Each Step of the Project:
 
-- Python was used to prepare and explore the data, as well as build machine learning model. 
-- PostgreSQL was used to write queries and view results while pgAdmin 4 Database was used to store cleaned data. 
+Python was used to prepare and explore the data, as well as build machine learning model. 
+- PostgreSQL was used to write queries and view results while pgAdmin 4 Database was used to store cleaned data.  
+- AWS Relational Database was created to store data remotely.
 - JavaScript was used to create tables and build a dashboard to present the results. 
 - Google Slides was used to prepare and deliver the presentation that walks the class through the project, step by step.
 
