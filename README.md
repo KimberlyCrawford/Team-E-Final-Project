@@ -3,9 +3,7 @@
 #### Final Project by Team E: CGL Analytics (Kimberly Crawford, Gary Goodman, and Trevor Lanouette)
 
 ## Overview
-An analysis to predict temperature changes in major cities with average <=32 degrees Fahrenheit.
-
-Topic: Temperature Predictions for Property Investment Decisions
+An analysis to predict temperature changes in major cities with average <=32 degrees Fahrenheit. Topic: Temperature Predictions for Property Investment Decisions
 
 ### Purpose
 
@@ -178,7 +176,7 @@ Database Connection
 - Tableau and JavaScript was used to build a dashboard to present the results. 
 - Google Slides were used to prepare and deliver the presentation that walks the class through the project, step by step.
 
-See Packages and Libraries for a list used in the project.
+See [Packages and Libraries](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/requirements.txt) for a list used in the project.
 
 ## Dashboard
 
