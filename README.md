@@ -109,18 +109,18 @@ Source: Evaluation of statistical and machine learning models for time series pr
 
 #### Changes in Model Choice
 
-Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+Based on Scikit-learn Algorithm Cheat Sheet, our team needed to build a regression machine learning model because our target variable was a quantitative set. The issue with this was that our machine learning models gave us what the average temperature would be for each year. We needed to find a machine learning model that would follow the progression of seasonal changes.
 
 #### How Model was Trained
 
 The time series prediction process covers six steps:
 - Step 1 partitions the time series in two sequences: one before the prediction horizon, which is intended to the model training (building and fit); and another after that period, which is used to test (evaluate) the quality of the fitted model. 
 
-- Step 2 chooses the predictive model structure based on data characteristics and estimates the parameters using some search technique. Usually, the algorithm that implements this technique receives as input the training sequence, which is subdivided into subsequences (samples) for training and validation, and a set of predefined parameters. At each iteration, the algorithm seeks for parameters values that minimize the predictive error of the model. 6 Test Sequence Training Sequence Time Series y(t) t t y(t) 1 0.05 2 0.10 3 0.15 4 0.20 ⁞ ⁞ 97 0.15 98 0.20 99 0.25 100 0.30 ① Parameter ② Estimation Model Building ③ and Model Fit Prediction ④ of Values Predicted Sequence Performance ⑤ Evaluation y(t) t Prediction of ⑥ Future Values Figure 4: Time series prediction process Global Local Exponential Smoothing ARIMA Prediction Methods Parametric Non-parametric Figure 5: Hierarchy of approaches for time series prediction 
+- Step 2 Choose the predictive model structure based on data characteristics and estimates the parameters using some search technique. Usually, the algorithm that implements this technique receives as input the training sequence, which is subdivided into subsequences (samples) for training and validation, and a set of predefined parameters. At each iteration, the algorithm seeks for parameters values that minimize the predictive error of the model. 6 Test Sequence Training Sequence Time Series y(t) t t y(t) 1 0.05 2 0.10 3 0.15 4 0.20 ⁞ ⁞ 97 0.15 98 0.20 99 0.25 100 0.30 ① Parameter ② Estimation Model Building ③ and Model Fit Prediction ④ of Values Predicted Sequence Performance ⑤ Evaluation y(t) t Prediction of ⑥ Future Values Figure 4: Time series prediction process Global Local Exponential Smoothing ARIMA Prediction Methods Parametric Non-parametric Figure 5: Hierarchy of approaches for time series prediction 
 
-- Step 3 builds the model with the previously found parameters values and fits the training sequence data. 
+- Step 3 Build the model with the previously found parameters values and fit the training sequence data. 
 
-- Step 4 model is then extrapolated, in the fourth step, for the periods of the test sequence. Evidently, the prediction error of the model reflects the chosen values for the parameters. Such error can be amplified for long time horizons. The fourth step also chooses the strategy to predict the values of a time series several periods ahead (prediction horizon h > 1). The most intuitive strategy is known as multi-step (or recursive), where the prediction of h > 1 is conducted h successive times considering a predictive model with h = 1 [3]. After the model’s extrapolation, the predicted value or the respective actual value can be employed to calculate the next prediction. In this paper, when the predicted values are used, we called the strategy of multi-step-ahead with approximate iteration. Otherwise, when the actual values are adopted, the strategy is called multi-step-ahead with updated iteration. 
+- Step 4 The model is then extrapolated, in the fourth step, for the periods of the test sequence. Evidently, the prediction error of the model reflects the chosen values for the parameters. Such error can be amplified for long time horizons. The fourth step also chooses the strategy to predict the values of a time series several periods ahead (prediction horizon h > 1). The most intuitive strategy is known as multi-step (or recursive), where the prediction of h > 1 is conducted h successive times considering a predictive model with h = 1 [3]. After the model’s extrapolation, the predicted value or the respective actual value can be employed to calculate the next prediction. In this paper, when the predicted values are used, we called the strategy of multi-step-ahead with approximate iteration. Otherwise, when the actual values are adopted, the strategy is called multi-step-ahead with updated iteration. 
 
 - Step 5 compares the predicted values to the test sequence to measure the model’s accuracy. The performance analysis is essential given that distinct models may have similar adjustments, but result in significantly different predictive values. 
 
@@ -138,9 +138,8 @@ The time series prediction process covers six steps:
 
 ![Prediction2_vs_Actual.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Prediction2_vs_Actual.png)
 
-#### Model’s Confusion Matrix & Final Accuracy Score
-
-??????
+#### Model’s Accuracy Score
+Our projected temperatures never fell outside the confidence interval of 95% meaning our accuracy rate was 95% or better.
 
 ## Database
 
