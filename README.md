@@ -91,7 +91,7 @@ Based on Scikit-learn Algorithm Cheat Sheet, our team needed to build a regressi
 
 ![scikit-learn_cheatsheet.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/scikit-learn_cheatsheet.png)
 
-We chose to build a Sarima model, because Sarima learns based on cyclic patterns that are programed into the model before training. The model trains on the previous data in order to make predictions for the future. This works great for weather data as it is cyclic by season through each year. We will use temperature data by month on Major cities to predict the monthly temperatures of cities that fall within our CEO's specifications for a new headquarters.
+We chose to build a Sarima model, because Sarima learns based on cyclic patterns. It allows you to program seasonal changes that are programed into the model before training. The model trains on the previous data in order to make predictions for the future. This works great for weather data as it is cyclic by season through each year. Our data came from Kaggle.com and was compiled by Berkeley Earth, which is affiliated with Lawrence Berkeley National Laboratory. The Berkeley Earth Surface Temperature Study combines 1.6 billion temperature reports from 16 pre-existing archives. This data ranged from 1750 to 2013. We used this temperature data by month on Major cities thoroughout the world to predict the monthly temperatures of cities that fall within our CEO's specifications for a new headquarters.
 
 ![Sarima.jpg](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Sarima.jpg)
 
