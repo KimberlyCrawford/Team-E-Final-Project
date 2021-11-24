@@ -29,7 +29,7 @@ The goals of this project was to download data for analysis, create a database t
 
 ## Data Source Description
 
-- Our dataset was located on Kaggle's Climate Change: Earth Surface Temperature Data page and comes from the Berkeley Earth data page (http://berkeleyearth.org/data/). The dataset selected includes [Global Land Temperatures By Major City](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/GlobalLandTemperaturesByMajorCity.csv)
+- Our dataset was located on Kaggle's Climate Change: Earth Surface Temperature Data page and comes from the [Berkeley Earth data page](http://berkeleyearth.org/data/). The dataset selected includes [Global Land Temperatures By Major City](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/GlobalLandTemperaturesByMajorCity.csv)
 
 ![Kaggle_original.png](https://github.com/KimberlyCrawford/Team-E-Final-Project/blob/main/Static/images/Kaggle_original.png)
 
@@ -206,8 +206,7 @@ The following branches were created throughout the project, merged into main, an
 ## Recommendation for Future Analysis
 
 - Add additional city datasets to provide more information about the top five cities, so upper management can thoroughly compare the top five cities.
-- ???
-- ???
+- Machine Learning can be used on past tax rates and property value to ensure the property itself is the best investment. 
 
 ## Anything Team Would Have Done Differently
 
